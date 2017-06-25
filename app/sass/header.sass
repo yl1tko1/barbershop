@@ -1,0 +1,66 @@
+.main-header
+  min-height: 850px
+  background: url(../img/header-bg.jpg) top center no-repeat
+  width: 100%
+  background-size: cover
+  display: inline-block
+  &__nav
+    background: rgba(0, 0, 0, 0.30)
+  &__logo
+      margin-top: 27px
+      margin-bottom: 40px
+      float: left
+  &__list
+    float: right
+    margin: 48px 0
+    li
+      float: left
+      margin-right: 80px
+      a
+        color: #FFF
+        text-decoration: none
+        padding-bottom: 10px
+        &:hover
+          border-bottom: 2px solid #FFF
+        &:active
+          opacity: 0.3
+    li.main-header__active
+      a
+        &:hover
+          color: #d22856
+          border-bottom: 2px solid #d22856
+        &:active
+            opacity: 0.3
+    li:last-child
+      margin-right: 0
+
+
+  .header-content
+    margin-top: 120px
+    width: 300px
+    &__download
+      margin-top: 60px
+      border: 3px solid #FFF
+      border-radius: 30px
+      padding: 15px 28px
+      font-weight: 700
+      text-decoration: none
+      color: #fff
+      font-size: 21px
+      display: block
+      transition: .5s
+      &:hover
+        background: #fff
+        color: #d22856
+        &:active
+          color: rgba(210, 40, 86, 0.3)
+    &__platform
+      margin-top: 65px
+      margin-bottom: 60px
+      img
+        display: inline
+        margin: 0 25px
+  .platform
+      color: #FFF
+      text-align: center
+      font-weight: 100
