@@ -586,3 +586,35 @@ li {
   height: 500px;
   background: url(../img/map.jpg) top center no-repeat;
   background-size: 100%; }
+
+.footer {
+  display: inline; }
+  .footer__logo {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    float: left;
+    margin-right: 220px; }
+  .footer__social {
+    width: 200px;
+    float: left;
+    margin-top: 70px; }
+  .footer__copyright {
+    float: right;
+    margin-top: 70px;
+    display: inline; }
+    .footer__copyright img {
+      margin-top: 10px; }
+
+.social-btn {
+  width: 50px;
+  height: 50px;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  border: 3px solid #e9ebec;
+  display: inline-block; }
+  .social-btn__tw {
+    background: url(../img/tw.png) center no-repeat; }
+  .social-btn__fb {
+    background: url(../img/fb.png) center no-repeat; }
+  .social-btn__you {
+    background: url(../img/you.png) center no-repeat; }
